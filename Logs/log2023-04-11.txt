@@ -1,0 +1,16 @@
+2023-04-11 13:07:43,430 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-04-11 13:07:43,994 - test_login.py:[20] - [INFO] - Test Do Sign up successfully executed
+2023-04-11 14:42:31,493 - test_manageAccounts.py:[16] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 14:47:10,142 - test_manageAccounts.py:[20] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 14:50:36,011 - test_manageAccounts.py:[20] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 14:51:56,147 - test_manageAccounts.py:[20] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 14:53:48,637 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-04-11 14:53:49,058 - test_login.py:[20] - [INFO] - Test Do Sign up successfully executed
+2023-04-11 14:54:10,366 - test_manageAccounts.py:[27] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 14:55:49,072 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-04-11 14:55:50,273 - test_login.py:[20] - [INFO] - Test Do Sign up successfully executed
+2023-04-11 14:55:53,135 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-04-11 14:55:53,835 - test_login.py:[20] - [INFO] - Test Do Sign up successfully executed
+2023-04-11 15:07:21,851 - test_manageAccounts.py:[22] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 15:08:34,286 - test_manageAccounts.py:[22] - [INFO] - Go to Manage Accounts Listing
+2023-04-11 15:11:06,262 - test_manageAccounts.py:[22] - [INFO] - Go to Manage Accounts Listing

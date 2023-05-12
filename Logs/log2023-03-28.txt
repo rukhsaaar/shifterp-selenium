@@ -1,0 +1,13 @@
+2023-03-28 16:20:21,878 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:35:38,521 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:36:38,196 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:37:27,029 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:37:38,773 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:38:46,830 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:38:58,203 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:50:26,663 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 16:50:35,563 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 17:03:17,898 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 17:03:27,062 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 17:06:00,720 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-03-28 17:06:10,928 - test_login.py:[17] - [INFO] - Test Do Sign up started

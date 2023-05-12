@@ -1,0 +1,10 @@
+2023-04-14 16:51:22,609 - test_manageAccounts.py:[34] - [INFO] - Test Go to add provision accounts
+2023-04-14 16:53:24,628 - test_manageAccounts.py:[34] - [INFO] - Test Go to add provision accounts
+2023-04-14 16:55:55,940 - test_manageAccounts.py:[18] - [INFO] - Login test started
+2023-04-14 16:56:05,151 - test_manageAccounts.py:[29] - [INFO] - Go to manage accounts listing
+2023-04-14 16:56:23,823 - test_manageAccounts.py:[36] - [INFO] - Test Go to add provision accounts
+2023-04-14 16:56:42,094 - test_manageAccounts.py:[47] - [INFO] - Test add business info started
+2023-04-14 16:57:00,265 - test_manageAccounts.py:[59] - [INFO] - Test add business info started
+2023-04-14 16:57:19,341 - test_manageAccounts.py:[69] - [INFO] - Test add subscription started
+2023-04-14 16:57:37,128 - test_manageAccounts.py:[78] - [INFO] - Test add settings started
+2023-04-14 16:57:56,177 - test_manageAccounts.py:[85] - [INFO] - Test add provision started

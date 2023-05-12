@@ -1,0 +1,43 @@
+2023-04-18 11:33:45,846 - test_manageAccounts.py:[17] - [INFO] - Login test started
+2023-04-18 11:33:54,365 - test_manageAccounts.py:[28] - [INFO] - Go to manage accounts listing
+2023-04-18 11:34:16,289 - test_manageAccounts.py:[35] - [INFO] - Test Go to add provision accounts
+2023-04-18 11:34:37,204 - test_manageAccounts.py:[46] - [INFO] - Test add business info started
+2023-04-18 11:34:56,764 - test_manageAccounts.py:[58] - [INFO] - Test add business info started
+2023-04-18 11:35:15,358 - test_manageAccounts.py:[68] - [INFO] - Test add subscription started
+2023-04-18 11:35:23,641 - test_manageAccounts.py:[77] - [INFO] - Test add settings started
+2023-04-18 11:35:41,507 - test_manageAccounts.py:[84] - [INFO] - Test add provision started
+2023-04-18 12:21:18,264 - test_manageAccounts.py:[17] - [INFO] - Login test started
+2023-04-18 12:28:17,715 - test_manageAccounts.py:[19] - [INFO] - Test Do Sign up started
+2023-04-18 12:28:18,235 - test_manageAccounts.py:[22] - [INFO] - Test Do Sign up successfully executed
+2023-04-18 12:28:27,037 - test_manageAccounts.py:[26] - [INFO] - Go to manage accounts listing
+2023-04-18 12:28:46,475 - test_manageAccounts.py:[33] - [INFO] - Test Go to add provision accounts
+2023-04-18 12:29:05,639 - test_manageAccounts.py:[44] - [INFO] - Test add business info started
+2023-04-18 12:29:25,247 - test_manageAccounts.py:[56] - [INFO] - Test add business info started
+2023-04-18 12:29:46,263 - test_manageAccounts.py:[66] - [INFO] - Test add subscription started
+2023-04-18 12:29:54,742 - test_manageAccounts.py:[75] - [INFO] - Test add settings started
+2023-04-18 12:30:13,293 - test_manageAccounts.py:[82] - [INFO] - Test add provision started
+2023-04-18 16:08:06,668 - test_manageAccounts.py:[19] - [INFO] - Test Do Sign up started
+2023-04-18 16:08:07,151 - test_manageAccounts.py:[22] - [INFO] - Test Do Sign up successfully executed
+2023-04-18 16:08:18,916 - test_manageAccounts.py:[26] - [INFO] - Go to manage accounts listing
+2023-04-18 16:08:41,107 - test_manageAccounts.py:[33] - [INFO] - Test Go to add provision accounts
+2023-04-18 16:10:15,398 - test_manageAccounts.py:[44] - [INFO] - Test add business info started
+2023-04-18 16:10:35,399 - test_manageAccounts.py:[56] - [INFO] - Test add business info started
+2023-04-18 16:10:52,903 - test_manageAccounts.py:[66] - [INFO] - Test add subscription started
+2023-04-18 16:11:01,007 - test_manageAccounts.py:[75] - [INFO] - Test add settings started
+2023-04-18 16:11:18,582 - test_manageAccounts.py:[82] - [INFO] - Test add provision started
+2023-04-18 16:36:56,423 - test_manageAccounts.py:[19] - [INFO] - Test Do Sign up started
+2023-04-18 16:36:56,809 - test_manageAccounts.py:[26] - [INFO] - Go to manage accounts listing
+2023-04-18 16:36:56,928 - test_manageAccounts.py:[33] - [INFO] - Test Go to add provision accounts
+2023-04-18 16:36:57,039 - test_manageAccounts.py:[44] - [INFO] - Test add business info started
+2023-04-18 16:36:57,171 - test_manageAccounts.py:[56] - [INFO] - Test add business info started
+2023-04-18 16:36:57,289 - test_manageAccounts.py:[66] - [INFO] - Test add subscription started
+2023-04-18 16:36:57,400 - test_manageAccounts.py:[75] - [INFO] - Test add settings started
+2023-04-18 16:36:57,505 - test_manageAccounts.py:[82] - [INFO] - Test add provision started
+2023-04-18 16:40:33,416 - test_manageAccounts.py:[19] - [INFO] - Test Do Sign up started
+2023-04-18 16:40:33,741 - test_manageAccounts.py:[26] - [INFO] - Go to manage accounts listing
+2023-04-18 16:43:25,054 - test_manageAccounts.py:[33] - [INFO] - Test Go to add provision accounts
+2023-04-18 16:43:25,182 - test_manageAccounts.py:[44] - [INFO] - Test add business info started
+2023-04-18 16:43:25,304 - test_manageAccounts.py:[56] - [INFO] - Test add business info started
+2023-04-18 16:43:25,409 - test_manageAccounts.py:[66] - [INFO] - Test add subscription started
+2023-04-18 16:43:25,506 - test_manageAccounts.py:[75] - [INFO] - Test add settings started
+2023-04-18 16:43:25,619 - test_manageAccounts.py:[82] - [INFO] - Test add provision started

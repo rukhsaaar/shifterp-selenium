@@ -1,0 +1,11 @@
+2023-04-12 13:08:59,362 - test_login.py:[17] - [INFO] - Test Do Sign up started
+2023-04-12 13:08:59,844 - test_login.py:[20] - [INFO] - Test Do Sign up successfully executed
+2023-04-12 13:16:16,084 - test_manageAccounts.py:[78] - [INFO] - Test add provision started
+2023-04-12 13:18:45,779 - test_manageAccounts.py:[78] - [INFO] - Test add provision started
+2023-04-12 13:22:40,202 - test_manageAccounts.py:[22] - [INFO] - Go to manage accounts listing
+2023-04-12 13:23:01,830 - test_manageAccounts.py:[29] - [INFO] - Test Go to add provision accounts
+2023-04-12 13:23:21,210 - test_manageAccounts.py:[40] - [INFO] - Test add business info started
+2023-04-12 13:23:40,996 - test_manageAccounts.py:[52] - [INFO] - Test add business info started
+2023-04-12 13:24:05,655 - test_manageAccounts.py:[62] - [INFO] - Test add subscription started
+2023-04-12 13:24:24,824 - test_manageAccounts.py:[71] - [INFO] - Test add settings started
+2023-04-12 13:24:41,807 - test_manageAccounts.py:[78] - [INFO] - Test add provision started
