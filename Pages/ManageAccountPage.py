@@ -1,7 +1,5 @@
-import pytest
-
 from Pages.BasePage import BasePage
-
+from selenium.webdriver.common.by import By
 
 # Defined a class with the page element to fetch them into the testcase
 class AddManageAccountsCls(BasePage):
@@ -29,7 +27,7 @@ class AddManageAccountsCls(BasePage):
         self.click("businessInfoStatus_XPATH")
 
     # Billing info selector function
-    def addBilling_selectors(self,  billingfirstname, billinglastname, billingaddress, billingtitle, billingcity,
+    def addBilling_selectors(self, billingfirstname, billinglastname, billingaddress, billingtitle, billingcity,
                              billingphone, billingstate, billingzip, billingemail):
         self.type("billingFirst_NAME", billingfirstname)
         self.type("billingLast_NAME", billinglastname)
@@ -63,13 +61,6 @@ class AddManageAccountsCls(BasePage):
         self.type("adminPhone_XPATH", settingsphone)
         self.click("adminSaveBtn_XPATH")
 
-    # Add provision account button
     def clickProvisionbtn_selector(self):
         self.click("addProvAccBtn_XPATH")
-
-    def totalRecords_Selectors(self):
-        self.go_to_element("dataTable_XPATH")
-
-
-
 

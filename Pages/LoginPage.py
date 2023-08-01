@@ -10,3 +10,5 @@ class loginPageCls(BasePage):
         self.type("username_NAME", username)
         self.type("password_NAME", password)
         self.click("Login_btn_XPATH")
+
+

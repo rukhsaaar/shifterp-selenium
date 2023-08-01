@@ -12,7 +12,7 @@ log = Logger(__name__, logging.INFO)
 # Testcase for logging in to the dashboard
 class Test_LoginCls(BaseClass):
 
-    @pytest.mark.parametrize("username, password", DataProvider.LoginData("LoginTest"))
+    @pytest.mark.parametrize("username, password", DataProvider.GetData("LoginTest"))
     def test_DoLogin(self,  username, password):
         log.logger.info("Start login to ShiftERP")
         login = loginPageCls(self.driver)

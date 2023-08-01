@@ -7,4 +7,4 @@ def readConfig(section, key):
     config.read(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Configuration/config.ini'))
     return config.get(section, key)
 
-# print(readConfig("paths", "login.url"))
+# print(readConfig("locators", "username_NAME"))

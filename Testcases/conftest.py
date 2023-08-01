@@ -29,16 +29,10 @@ def get_browser(request):
     # driver = webdriver.Chrome(GeckoDriverManager().install())
     driver = webdriver.Firefox()
     request.cls.driver = driver
-    driver.get(ConfigReader.readConfig("paths", "url"))
+    driver.get(ConfigReader.readConfig("paths", "localHost"))
     # driver.get(config('url'))
     driver.maximize_window()
     driver.implicitly_wait(10)
 
-    yield driver
-    driver.quit()
-
-# @pytest.fixture(scope="class", autouse=True)
-# def teardown(request):
-#     driver = webdriver.Firefox()
-#     request.cls.driver = driver
-#     driver.quit()
+    # yield driver
+    # driver.quit()

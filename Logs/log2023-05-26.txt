@@ -1,0 +1,2 @@
+2023-05-26 11:16:50,945 - test_ManageAccountsList.py:[33] - [INFO] - start searching the value
+2023-05-26 11:18:23,999 - test_ManageAccountsList.py:[33] - [INFO] - start searching the value

@@ -1,0 +1,24 @@
+2023-05-17 16:45:30,627 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-05-17 16:45:31,233 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-05-17 16:45:51,011 - test_ManageAccountsAdd.py:[20] - [INFO] - Start login to ShiftERP
+2023-05-17 16:45:51,012 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-05-17 16:45:51,505 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-05-17 16:45:51,505 - test_ManageAccountsAdd.py:[22] - [INFO] - Login to ShiftERP successfully executed
+2023-05-17 16:45:51,512 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-05-17 16:45:53,078 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-05-17 16:45:53,081 - test_ManageAccountsAdd.py:[34] - [INFO] - Test Go to add provision accounts
+2023-05-17 16:45:53,546 - test_ManageAccountsAdd.py:[37] - [INFO] - Test go to provision successfully executed 
+2023-05-17 16:45:53,552 - test_ManageAccountsAdd.py:[45] - [INFO] - Test add business info started
+2023-05-17 16:45:56,282 - test_ManageAccountsAdd.py:[49] - [INFO] - Test add business info successfully executed
+2023-05-17 16:45:56,286 - test_ManageAccountsAdd.py:[57] - [INFO] - Test add business info started
+2023-05-17 16:45:59,212 - test_ManageAccountsAdd.py:[61] - [INFO] - Test add business info successfully executed
+2023-05-17 16:45:59,217 - test_ManageAccountsAdd.py:[67] - [INFO] - Test add subscription started
+2023-05-17 16:46:00,218 - test_ManageAccountsAdd.py:[70] - [INFO] - Test subscription successfully executed
+2023-05-17 16:46:00,223 - test_ManageAccountsAdd.py:[76] - [INFO] - Test add settings started
+2023-05-17 16:46:02,314 - test_ManageAccountsAdd.py:[79] - [INFO] - Test add settings successfully executed
+2023-05-17 16:46:02,317 - test_ManageAccountsAdd.py:[83] - [INFO] - Test add provision started
+2023-05-17 16:46:02,587 - test_ManageAccountsAdd.py:[86] - [INFO] - Test add provision successfully executed
+2023-05-17 16:49:24,465 - test_forgotPassword.py:[17] - [INFO] - Start login to ShiftERP
+2023-05-17 16:49:24,937 - test_forgotPassword.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-05-17 16:50:16,933 - test_forgotPassword.py:[17] - [INFO] - Start login to ShiftERP
+2023-05-17 16:50:17,464 - test_forgotPassword.py:[20] - [INFO] - Login too ShiftERP successfully executed

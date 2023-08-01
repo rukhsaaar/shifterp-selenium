@@ -7,83 +7,100 @@ class BasePage:
     def __init__(self, driver):
         self.driver = driver
 
-    def click(self, locator):
+    def click(self, locator, element_driver=None):
+        driver = element_driver if element_driver else self.driver
         if str(locator).endswith("_XPATH"):
-            self.driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_CSS_SELECTOR"):
-            self.driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_ID"):
-            self.driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_NAME"):
-            self.driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_TAG_NAME"):
-            self.driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_LINK_TEXT"):
-            self.driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_PARTIAL_LINK_TEXT"):
-            self.driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)).click()
         elif str(locator).endswith("_CLASS_NAME"):
-            self.driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).click()
+            driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).click()
 
-    def type(self, locator, value):
+    def type(self, locator, value, element_driver = None):
+        driver = element_driver if element_driver else self.driver
         if str(locator).endswith("_XPATH"):
-            self.driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CSS_SELECTOR"):
-            self.driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_ID"):
-            self.driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_NAME"):
-            self.driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_TAG_NAME"):
-            self.driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_LINK_TEXT"):
-            self.driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_PARTIAL_LINK_TEXT"):
-            self.driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(
-                value)
+            driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CLASS_NAME"):
-            self.driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
 
-    def select(self, locator, value):
+    def select(self, locator, value, element_driver=None):
+        driver = element_driver if element_driver else self.driver
         global dropdown
         if str(locator).endswith("_XPATH"):
-            dropdown = self.driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            dropdown = driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CSS_SELECTOR"):
-            dropdown = self.driver.find_element(By.CSS_SELECTOR,
-                                                ConfigReader.readConfig("locators", locator)).send_keys(value)
+            dropdown = driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_ID"):
-            dropdown = self.driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            dropdown = driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_NAME"):
-            dropdown = self.driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
+            dropdown = driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_TAG_NAME"):
-            dropdown = self.driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).send_keys(
+            dropdown = driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)).send_keys(
                 value)
         elif str(locator).endswith("_LINK_TEXT"):
-            dropdown = self.driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(
+            dropdown = driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(
                 value)
         elif str(locator).endswith("_PARTIAL_LINK_TEXT"):
-            dropdown = self.driver.find_element(By.PARTIAL_LINK_TEXT,
-                                                ConfigReader.readConfig("locators", locator)).send_keys(value)
+            dropdown = driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)).send_keys(value)
         elif str(locator).endswith("_CLASS_NAME"):
-            dropdown = self.driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).send_keys(
+            dropdown = driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).send_keys(
                 value)
         select = Select()
         select.select_by_visible_text(value)
 
-    def go_to_element(self, locator):
+    def go_to_element(self, locator, element_driver=None, multi_elements=False):
+        driver = element_driver if element_driver else self.driver
         if str(locator).endswith("_XPATH"):
-            count = self.driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_CSS_SELECTOR"):
-            count = self.driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.CSS_SELECTOR, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_ID"):
-            count = self.driver.find_element(By.ID, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.ID, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_NAME"):
-            count = self.driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.NAME, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_TAG_NAME"):
-            count = self.driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.TAG_NAME, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_LINK_TEXT"):
-            count = self.driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.LINK_TEXT, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_PARTIAL_LINK_TEXT"):
-            count = self.driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.PARTIAL_LINK_TEXT, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))
         elif str(locator).endswith("_CLASS_NAME"):
-            count = self.driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator))
+            return driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)) \
+                if not multi_elements else \
+                driver.find_elements(By.XPATH, ConfigReader.readConfig("locators", locator))

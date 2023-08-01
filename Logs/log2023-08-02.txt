@@ -1,0 +1,141 @@
+2023-08-02 01:08:06,664 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:08:06,666 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:08:07,362 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:08:07,362 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:08:07,375 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:08:07,375 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:08:10,865 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:08:10,866 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:08:10,880 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:12:41,366 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:12:41,368 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:12:42,534 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:12:42,536 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:12:42,573 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:12:42,574 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:12:43,522 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:12:43,522 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:12:43,536 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:17:41,903 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:17:41,904 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:17:42,581 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:17:42,581 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:17:42,594 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:17:42,594 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:17:43,770 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:17:43,771 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:17:43,783 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:19:05,367 - Test_TotalRecords.py:[33] - [INFO] - Records matched successfully
+2023-08-02 01:21:46,910 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:21:46,912 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:21:47,702 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:21:47,702 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:21:47,710 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:21:47,710 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:21:49,685 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:21:49,685 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:21:49,703 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:23:31,316 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:23:31,317 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:23:31,979 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:23:31,979 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:23:32,003 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:23:32,003 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:23:33,160 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:23:33,160 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:23:33,172 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:41:48,468 - Test_TotalRecords.py:[33] - [INFO] - Records matched successfully
+2023-08-02 01:43:04,886 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:43:04,887 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:43:05,422 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:43:05,422 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:43:05,431 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:43:05,431 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:43:06,563 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:43:06,563 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:43:06,565 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:44:10,538 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:44:10,540 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:44:11,084 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:44:11,084 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:44:11,098 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:44:11,098 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:44:12,198 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:44:12,199 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:44:12,212 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:46:17,841 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:46:17,842 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:46:18,831 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:46:18,832 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:46:18,841 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:46:18,841 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:46:20,024 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:46:20,025 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:46:20,033 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:47:21,331 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:47:21,331 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:47:22,329 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:47:22,330 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:47:22,333 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:47:22,333 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:47:23,382 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:47:23,383 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:47:23,385 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:48:43,883 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:48:43,884 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:48:44,431 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:48:44,431 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:48:44,446 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:48:44,446 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:48:45,525 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:48:45,525 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:48:45,537 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:50:33,577 - Test_TotalRecords.py:[32] - [INFO] - Records matched successfully
+2023-08-02 01:50:59,327 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:50:59,328 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:50:59,882 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:50:59,882 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:50:59,890 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:50:59,891 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:51:00,986 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:51:00,987 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:51:00,998 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:53:01,378 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:53:01,379 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:53:02,311 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:53:02,311 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:53:02,318 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:53:02,318 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:53:03,311 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:53:03,311 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:53:03,314 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:53:57,931 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:53:57,933 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:53:58,806 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:53:58,806 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:53:58,810 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:53:58,810 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:54:00,072 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:54:00,072 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:54:00,074 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:54:04,161 - Test_TotalRecords.py:[32] - [INFO] - Records matched successfully
+2023-08-02 01:54:46,231 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:54:46,232 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:54:47,399 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:54:47,400 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:54:47,405 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:54:47,406 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:54:48,450 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:54:48,451 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:54:48,472 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:55:56,731 - Test_TotalRecords.py:[32] - [INFO] - Records matched successfully
+2023-08-02 01:57:02,115 - Test_TotalRecords.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:57:02,116 - test_login.py:[17] - [INFO] - Start login to ShiftERP
+2023-08-02 01:57:02,633 - test_login.py:[20] - [INFO] - Login too ShiftERP successfully executed
+2023-08-02 01:57:02,634 - Test_TotalRecords.py:[19] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:57:02,650 - Test_TotalRecords.py:[22] - [INFO] - Go to listing started
+2023-08-02 01:57:02,650 - test_ManageAccountsAdd.py:[27] - [INFO] - Go to manage accounts listing in super admin dashboard
+2023-08-02 01:57:03,796 - test_ManageAccountsAdd.py:[30] - [INFO] - Manage accounts listing successfully accessed
+2023-08-02 01:57:03,797 - Test_TotalRecords.py:[24] - [INFO] - Login to ShiftERP successfully executed
+2023-08-02 01:57:03,805 - Test_TotalRecords.py:[27] - [INFO] - Total records started successfully
+2023-08-02 01:58:26,361 - Test_TotalRecords.py:[32] - [INFO] - Records matched successfully

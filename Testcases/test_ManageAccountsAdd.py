@@ -39,7 +39,7 @@ class Test_AddProvisionAccount(BaseClass):
     # Add business info in provision accounts
     @pytest.mark.parametrize("businessInfoname, businessInfoaddress, dba, businessInfocity, businessInfophone, "
                              "businessInfostate, businessInfozip",
-                             DataProvider.ManageAccoubtsData("ManageAccount-businessTest"))
+                             DataProvider.GetData("ManageAccount-businessTest"))
     def test_addBusinessInfo(self, businessInfoname, businessInfoaddress, dba, businessInfocity,
                              businessInfophone, businessInfostate, businessInfozip):
         log.logger.info("Test add business info started")
@@ -51,7 +51,7 @@ class Test_AddProvisionAccount(BaseClass):
     # Add billing details function
     @pytest.mark.parametrize("billingfirstname, billinglastname, billingaddress, billingtitle, billingcity,"
                              "billingphone, billingstate, billingzip, billingemail",
-                             DataProvider.ManageAccoubtsData("ManageAccounts-billingTest"))
+                             DataProvider.GetData("ManageAccounts-billingTest"))
     def test_addBilling(self, billingfirstname, billinglastname, billingaddress, billingtitle, billingcity,
                         billingphone, billingstate, billingzip, billingemail):
         log.logger.info("Test add business info started")
@@ -62,7 +62,7 @@ class Test_AddProvisionAccount(BaseClass):
 
     # Choose subscription and add details function
     @pytest.mark.parametrize("recurringdate, setupfeedate, setupfee",
-                             DataProvider.ManageAccoubtsData("ManageAccounts-subTest"))
+                             DataProvider.GetData("ManageAccounts-subTest"))
     def test_addSubscription(self, recurringdate, setupfeedate, setupfee):
         log.logger.info("Test add subscription started")
         subscription = AddManageAccountsCls(self.driver)
@@ -71,7 +71,7 @@ class Test_AddProvisionAccount(BaseClass):
 
     # Choose subscription and add details function
     @pytest.mark.parametrize("settingsfirstname, settingslastname, settingsusername, settingsemail, settingsphone",
-                             DataProvider.ManageAccoubtsData("ManageAccounts-settingsTest"))
+                             DataProvider.GetData("ManageAccounts-settingsTest"))
     def test_addSettings(self, settingsfirstname, settingslastname, settingsusername, settingsemail, settingsphone):
         log.logger.info("Test add settings started")
         settings = AddManageAccountsCls(self.driver)
