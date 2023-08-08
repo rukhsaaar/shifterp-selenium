@@ -28174,3 +28174,5 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
 1690923828452	Marionette	INFO	Stopped listening on port 61733
 1690923830378	Marionette	INFO	Stopped listening on port 61136
+1690987731588	Marionette	INFO	Stopped listening on port 51487
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

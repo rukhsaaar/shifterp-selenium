@@ -1,11 +1,13 @@
 from Utilities import ConfigReader
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
+        self.action = ActionChains(self.driver)
 
     def click(self, locator, element_driver=None):
         driver = element_driver if element_driver else self.driver
@@ -26,7 +28,7 @@ class BasePage:
         elif str(locator).endswith("_CLASS_NAME"):
             driver.find_element(By.CLASS_NAME, ConfigReader.readConfig("locators", locator)).click()
 
-    def type(self, locator, value, element_driver = None):
+    def type(self, locator, value, element_driver=None):
         driver = element_driver if element_driver else self.driver
         if str(locator).endswith("_XPATH"):
             driver.find_element(By.XPATH, ConfigReader.readConfig("locators", locator)).send_keys(value)

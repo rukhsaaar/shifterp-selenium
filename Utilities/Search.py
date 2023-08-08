@@ -1,10 +1,9 @@
 from selenium.webdriver.common.by import By
+from Pages.BasePage import BasePage
+from Pages.TotalCountPage import TotalRecordPageCls
 
+class search(BasePage):
 
-def search(self, data, locator):
-    # verify the data by getting the size of the element matches based on the text/data passed
-    dataSize = len(self.table.find_elements(By.XPATH, "//td[normalize-space(text())='" + data + "']"))
-    presence = False
-    if dataSize > 0:
-        presence = True
-    return presence2
+    def Search_Input(self):
+        search_text = input('Please enter search key:')
+        return search_text
